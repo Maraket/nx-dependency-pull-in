@@ -43,7 +43,7 @@
       }
     },
     "test": {
-     "executor": "@nx/jest:jest",
+      "executor": "@nx/jest:jest",
       "outputs": [
         "{workspaceRoot}/test-reports/apps/app-b/unit",
         "{workspaceRoot}/coverage/apps/app-b/unit"

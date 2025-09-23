@@ -11,13 +11,8 @@
   ],
   "targetDefaults": {
     "build": {
-      "dependsOn": [
-        "^build"
-      ],
-      "inputs": [
-        "production",
-        "^production"
-      ],
+      "dependsOn": ["^build"],
+      "inputs": ["production", "^production"],
       "cache": false
     },
     "@nx/js:tsc": {
@@ -32,9 +27,7 @@
     }
   },
   "namedInputs": {
-    "default": [
-      "{projectRoot}/**/*"
-    ],
+    "default": ["{projectRoot}/**/*"],
     "production": [
       "default",
       "!{projectRoot}/src/**/?(*.)+(spec|test).[jt]s?(x)?(.snap)",
