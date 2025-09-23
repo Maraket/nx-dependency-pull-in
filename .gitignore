@@ -1,5 +1,6 @@
 node_modules/
 
+tmp/
 dist/
 .nx/cache
 .nx/workspace-data
