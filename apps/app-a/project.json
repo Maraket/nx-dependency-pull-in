@@ -11,12 +11,12 @@
       "defaultConfiguration": "production",
       "options": {
         "platform": "node",
-        "outputPath": "dist/apps/app-a",
+        "outputPath": "dist",
         "format": ["cjs"],
         "bundle": false,
-        "main": "apps/app-a/src/main.ts",
-        "tsConfig": "apps/app-a/tsconfig.app.json",
-        "assets": ["apps/app-a/src/assets"],
+        "main": "{projectRoot}/src/main.ts",
+        "tsConfig": "{projectRoot}/tsconfig.app.json",
+        "assets": ["{projectRoot}/src/assets"],
         "generatePackageJson": true,
         "esbuildOptions": {
           "sourcemap": true,
